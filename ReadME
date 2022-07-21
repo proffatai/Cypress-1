@@ -1,0 +1,16 @@
+### Starting the cypress project
+
+Open a folder on VS code and lauch the below commands in the terminal of that folder on VScode
+
+Initialize a folder as a cypress project using `npm init -y` 
+NB: A package.json would be created and you can edit the value of the description to suit your work
+
+Run `npm install cypress`  to install the latest stable version or `npm install cypress@x.y.z`  to install a specific version of cypress
+
+Run `npx cypress -v`  to check the version of the cypress installed
+
+Run `npx cypress open` to lauch the cypress GUI
+
+### Project Structure
+
+1. Fixtures Folder: This is the folder we store any files that we want to upload or download any files
