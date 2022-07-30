@@ -9,7 +9,10 @@ Run `npm install cypress`  to install the latest stable version or `npm install 
 
 Run `npx cypress -v`  to check the version of the cypress installed
 
-Run `npx cypress open` to lauch the cypress GUI
+Run `npx cypress open` to lauch the cypress GUI 
+
+Alternative way to open cypress on a specific browser instantly from the command line
+`npx cypress open --e2e --browser chrome ` We want to launch the e2e part of cypress on a chrome browser
 
 ### Project Structure
 
